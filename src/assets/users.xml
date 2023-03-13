@@ -1,33 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>    
-<Employee>    
-   <emp>    
-      <id>1</id>    
-      <name>Ajay Rich</name>    
-      <email>therichposts@gmail.com</email>    
-   </emp>    
-   <emp>    
-      <id>2</id>    
-      <name>Jassa Rich</name>    
-      <email>therichposts@gmail.com</email>    
-   </emp>    
-   <emp>    
-      <id>3</id>    
-      <name>Jassa</name>    
-      <email>therichposts@gmail.com</email>    
-   </emp>    
-   <emp>    
-      <id>4</id>    
-      <name>Rich Jassa</name>    
-      <email>therichposts@gmail.com</email>    
-   </emp>    
-   <emp>    
-      <id>5</id>    
-      <name>Jassa Boss</name>       
-      <email>therichposts@gmail.com</email>    
-   </emp> 
-      <emp>    
-      <id>6</id>    
-      <name>Luis Mendes</name>    
-      <email>machadoluismendes@gmail.com</email>    
-   </emp>    
-</Employee> 
+version https://git-lfs.github.com/spec/v1
+oid sha256:b548115884cd8ee97c1e4a995cd739fdb1aaebecd5b18b190743992701026f5c
+size 885
