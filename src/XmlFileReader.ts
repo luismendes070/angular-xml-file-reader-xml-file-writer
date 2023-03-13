@@ -1,6 +1,7 @@
 import * as fs from 'fs';
 import * as xml2js from 'xml2js';
 
+try{
 // Read the XML file
 const xml = fs.readFileSync('./assets/users.xml', 'utf-8');
 
@@ -14,3 +15,9 @@ xml2js.parseString(xml, (err, result) => {
   // Do something with the result object
   console.log(result);
 });
+
+}catch(err){
+console.log('xml file reader error');
+}finally{
+
+}
