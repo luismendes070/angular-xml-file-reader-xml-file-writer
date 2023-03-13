@@ -16,6 +16,19 @@ import { bootstrapApplication } from '@angular/platform-browser';
 })
 export class App {
   name = 'Angular';
-}
+
+  constructor(){
+
+    try{
+      console.log("App class constructor");
+    }catch(err){
+      console.log("App class constructor err");
+    }finally{
+      console.log("App class constructor finally");
+    }
+
+  } // end empty constructor
+
+} // end class App
 
 bootstrapApplication(App);
