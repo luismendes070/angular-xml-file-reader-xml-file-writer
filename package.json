@@ -11,6 +11,7 @@
     "e2e": "ng e2e"
   },
   "dependencies": {
+    "fs-extra":"11.1.0",
     "@types/node":"18.15.1",
     "@types/xml2js": "0.4.11",
     "xml2js":"0.4.23",
