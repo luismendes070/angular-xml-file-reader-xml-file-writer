@@ -13,6 +13,8 @@ const xml = xmlbuilder.create('root')
 // Write the XML document to a file
 fs.writeFileSync('./assets/users.xml', xml);
 
+const writer = document.getElementById("writer").innerHTML = "".concat(xml);
+
 }catch(err){
 
 console.log('XML file writer error');

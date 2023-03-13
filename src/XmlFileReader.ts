@@ -14,6 +14,7 @@ xml2js.parseString(xml, (err:any, result:any) => {
   
   // Do something with the result object
   console.log(result);
+  const reader = document.getElementById("reader").innerHTML = "".concat(result);
 });
 
 }catch(err){
